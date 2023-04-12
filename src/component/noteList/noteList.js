@@ -23,7 +23,7 @@ const NoteList = () =>{
             <div className="item-content">
                 <h2>{note.title}</h2>
                 <p>{note.content}</p>
-                <button onClick={() =>dispatch(deleteNoteAction(note.id))}>delete</button>
+                <button onClick={() =>dispatch(deleteNoteAction(note.id))}>Delete</button>
             </div>
           </div>
           ))}
